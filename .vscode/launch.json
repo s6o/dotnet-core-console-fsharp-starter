@@ -22,7 +22,7 @@
             "name": ".NET Core Launch (tests)",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build-tests",
+            "preLaunchTask": "build",
             "program": "${workspaceFolder}/tests/ConsoleTests/bin/Debug/netcoreapp2.2/ConsoleTests.dll",
             "args": [
                 ""

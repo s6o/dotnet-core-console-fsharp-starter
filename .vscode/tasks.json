@@ -5,7 +5,7 @@
     "tasks": [
         {
             "label": "build",
-            "command": "dotnet build src/ConsoleApp/ConsoleApp.fsproj",
+            "command": "dotnet build",
             "type": "shell",
             "group": "build",
             "presentation": {
@@ -13,15 +13,5 @@
             },
             "problemMatcher": "$msCompile"
         },
-        {
-            "label": "build-tests",
-            "command": "dotnet build tests/ConsoleTests/ConsoleTests.fsproj",
-            "type": "shell",
-            "group": "test",
-            "presentation": {
-                "reveal": "silent"
-            },
-            "problemMatcher": "$msCompile"
-        }
     ]
 }
